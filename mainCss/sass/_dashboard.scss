@@ -1,0 +1,36 @@
+.dashHead{
+    width: 100%;
+}
+.dashHead__col{
+    padding-top: 15px;
+    // padding-left: 0px;
+    padding-bottom: 15px;
+    // padding-right: 0px;
+}
+.dashHead__logo{
+    height: 40px;
+}
+.dashbody__welcome{
+    display: flex;
+    align-items: center;
+
+}
+.dashBody__welcome--speech{
+    position: relative;
+    // height: 70px;
+}
+.dashBody__welcome--text{
+	font-family: raleway;
+	font-size: 16px;
+	border-left: solid 2px $red;
+	padding-left: 10px;
+	position: absolute;
+	left: 13%;
+	top: 5%;
+}
+.dashBody__welcome--space{
+    letter-spacing: 3px;
+}
+.dashBody__temp{
+    margin-top: 20px;
+}
