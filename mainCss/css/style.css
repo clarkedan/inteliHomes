@@ -55,4 +55,33 @@ html, body {
 .dashBody__temp {
   margin-top: 20px; }
 
+.dashBody__secure {
+  display: flex;
+  align-items: center;
+  border-top: solid 3px #83CFC7;
+  border-bottom: solid 3px #83CFC7;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.dashBody__secureText {
+  padding-left: 0px;
+  padding-right: 0px; }
+
+.dashBody__secureText p {
+  font-family: open sans;
+  font-size: 16px;
+  color: #FFFAF7;
+  letter-spacing: 2px;
+  margin-bottom: 0px; }
+
+.dashBody__secureTick {
+  display: flex;
+  justify-content: flex-end;
+  padding-left: 0px;
+  padding-right: 0px; }
+
+.dashBody__secureTick img {
+  height: 31px; }
+
 /*# sourceMappingURL=style.css.map */
