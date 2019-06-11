@@ -11,7 +11,7 @@ html, body {
   background-color: #1F171D; }
 
 .masterContain {
-  background-color: #666; }
+  background-color: #333; }
 
 .signIn {
   width: 320px;
@@ -38,7 +38,9 @@ html, body {
   align-items: center; }
 
 .dashBody__welcome--speech {
-  position: relative; }
+  position: relative;
+  margin-bottom: 10px;
+  margin-top: 10px; }
 
 .dashBody__welcome--text {
   font-family: raleway;
@@ -47,7 +49,7 @@ html, body {
   padding-left: 10px;
   position: absolute;
   left: 13%;
-  top: 5%; }
+  top: 9%; }
 
 .dashBody__welcome--space {
   letter-spacing: 3px; }
@@ -55,12 +57,15 @@ html, body {
 .dashBody__temp {
   margin-top: 20px; }
 
+.tempTab {
+  display: none; }
+
 .dashBody__secure {
   display: flex;
   align-items: center;
   border-top: solid 3px #83CFC7;
   border-bottom: solid 3px #83CFC7;
-  margin-top: 20px;
+  margin-top: 25px;
   padding-top: 10px;
   padding-bottom: 10px; }
 
@@ -83,5 +88,91 @@ html, body {
 
 .dashBody__secureTick img {
   height: 31px; }
+
+.dashBody__home {
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  margin-top: 10px; }
+
+.dashBody__home p {
+  font-size: 20px;
+  font-family: open Sans;
+  font-weight: 600;
+  color: #FFFAF7;
+  margin-bottom: 0px;
+  margin-right: 15px; }
+
+.dashBody__home img {
+  height: 23px;
+  margin-bottom: 9px; }
+
+.dashBody__security {
+  display: flex;
+  align-items: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-top: 10px;
+  border: solid 4px #DC7272;
+  border-radius: 30px; }
+
+.dashBody__security img {
+  height: 32px;
+  margin-left: 15px; }
+
+.dashBody__security p {
+  font-size: 20px;
+  font-family: raleway;
+  font-weight: 600;
+  color: #FFFAF7;
+  letter-spacing: 2px;
+  margin-left: 15px;
+  margin-bottom: 0px; }
+
+.dashBody__entertainment {
+  display: flex;
+  align-items: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-top: 30px;
+  border: solid 4px #83CFC7;
+  border-radius: 30px; }
+
+.dashBody__entertainment img {
+  height: 32px;
+  margin-left: 15px; }
+
+.dashBody__entertainment p {
+  font-size: 20px;
+  font-family: raleway;
+  font-weight: 600;
+  color: #FFFAF7;
+  letter-spacing: 2px;
+  margin-left: 15px;
+  margin-bottom: 0px; }
+
+.dashBody__electricity {
+  display: flex;
+  align-items: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: solid 4px #FCC6AC;
+  border-radius: 30px; }
+
+.dashBody__electricity img {
+  height: 32px;
+  margin-left: 15px; }
+
+.dashBody__electricity p {
+  font-size: 20px;
+  font-family: raleway;
+  font-weight: 600;
+  color: #FFFAF7;
+  letter-spacing: 2px;
+  margin-left: 15px;
+  margin-bottom: 0px; }
 
 /*# sourceMappingURL=style.css.map */
