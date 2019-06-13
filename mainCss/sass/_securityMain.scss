@@ -1,0 +1,32 @@
+.securityNav{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.securityNav__arrow img{
+    height: 32px;
+}
+.securityNav__logo{
+    display: flex;
+    justify-content: flex-end;
+}
+.securityNav__logo img{
+    height: 32px;
+}
+.securityHeading{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.securityHeading img{
+    height: 32px;
+}
+.securityHeading p{
+    font-size: 30px;
+	font-family: raleway;
+	font-weight: 600;
+	color: $white;
+	letter-spacing: 2px;
+    margin-left: 15px;;
+    margin-bottom: 0px;
+}

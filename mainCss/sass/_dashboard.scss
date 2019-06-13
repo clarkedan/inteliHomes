@@ -23,7 +23,7 @@
 }
 .dashBody__welcome--text{
 	font-family: raleway;
-	font-size: 16px;
+	font-size: 4.3vw;
 	border-left: solid 2px $red;
 	padding-left: 10px;
 	position: absolute;
@@ -54,7 +54,7 @@
 }
 .dashBody__secureText p{
     font-family: open sans;
-	font-size: 16px;
+    font-size: 2vh;
 	color: $white;
     letter-spacing: 2px;
     margin-bottom: 0px;
@@ -67,6 +67,7 @@
 }
 .dashBody__secureTick img{
     height: 31px;
+
 }
 .dashBody__home{
     display: flex;
@@ -76,7 +77,8 @@
     margin-top: 10px;
 }
 .dashBody__home p{
-    font-size: 20px;
+    // font-size: 20px;
+    font-size: 2.4vh;
 	font-family: open Sans;
 	font-weight: 600;
     color: $white;
@@ -101,7 +103,8 @@
     margin-left: 15px;
 }
 .dashBody__security p{
-    font-size: 20px;
+    // font-size: 20px;
+    font-size: 2.4vh;
 	font-family: raleway;
 	font-weight: 600;
 	color: $white;
@@ -123,7 +126,8 @@
     margin-left: 15px;
 }
 .dashBody__entertainment p{
-    font-size: 20px;
+    // font-size: 20px;
+    font-size: 2.4vh;
 	font-family: raleway;
 	font-weight: 600;
 	color: $white;
@@ -146,7 +150,8 @@
     margin-left: 15px;
 }
 .dashBody__electricity p{
-    font-size: 20px;
+    // font-size: 20px;
+    font-size: 2.4vh;
 	font-family: raleway;
 	font-weight: 600;
 	color: $white;
