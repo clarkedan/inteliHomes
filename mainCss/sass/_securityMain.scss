@@ -30,3 +30,14 @@
     margin-left: 15px;;
     margin-bottom: 0px;
 }
+// .securityRow{
+//     padding-left: 15px;
+//     padding-right: 15px;
+// }
+.securityLock{
+    border: solid 4px $red;
+    border-radius: 30px;
+    height: 200px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}

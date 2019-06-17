@@ -207,6 +207,13 @@ html, body {
   margin-left: 15px;
   margin-bottom: 0px; }
 
+.securityLock {
+  border: solid 4px #DC7272;
+  border-radius: 30px;
+  height: 200px;
+  padding-top: 15px;
+  padding-bottom: 15px; }
+
 .entertainmentNav {
   padding-top: 15px;
   padding-bottom: 15px; }
