@@ -30,14 +30,83 @@
     margin-left: 15px;;
     margin-bottom: 0px;
 }
-// .securityRow{
-//     padding-left: 15px;
-//     padding-right: 15px;
-// }
 .securityLock{
     border: solid 4px $red;
     border-radius: 30px;
-    height: 200px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 15px 15px 7px 15px;
+    margin-bottom: 25px;
 }
+.securityLock__heading p{
+    font-family: open sans;
+	font-weight: 600;
+	font-size: 20px;
+	letter-spacing: 2px;
+    color: $white;
+    margin-bottom: 10px;
+}
+.securityLock__frontDoor{
+    display: flex;
+    align-items: center;
+}
+.securityLock__frontDoor--text{
+    padding: 0;
+}
+.securityLock__frontDoor--text p{
+    font-family: raleway;
+	font-weight: 400;
+	font-size: 20px;
+	letter-spacing: 2px;
+    color: $white;
+    margin-bottom: 10px;
+}
+.securityLock__frontDoor--icons{
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+.lockIcons{
+    height: 20px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+.securityLock__backDoor{
+    display: flex;
+    align-items: center;
+}
+.securityLock__backDoor--text{
+    padding: 0;
+}
+.securityLock__backDoor--text p{
+    font-family: raleway;
+	font-weight: 400;
+	font-size: 20px;
+	letter-spacing: 2px;
+    color: $white;
+    margin-bottom: 10px;
+}
+.securityLock__backDoor--icons{
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+.securityLock__garageDoor{
+    display: flex;
+    align-items: center;
+}
+.securityLock__garageDoor--text{
+    padding: 0;
+}
+.securityLock__garageDoor--text p{
+    font-family: raleway;
+	font-weight: 400;
+	font-size: 20px;
+	letter-spacing: 2px;
+    color: $white;
+    margin-bottom: 10px;
+}
+.securityLock__garageDoor--icons{
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
