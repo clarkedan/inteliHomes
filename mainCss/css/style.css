@@ -178,7 +178,7 @@ html, body {
 
 .securityNav {
   padding-top: 15px;
-  padding-bottom: 15px; }
+  padding-bottom: 5px; }
 
 .securityNav__arrow img {
   height: 32px; }
@@ -287,9 +287,187 @@ html, body {
   display: flex;
   justify-content: flex-end; }
 
+.securitySmoke {
+  border: solid 4px #DC7272;
+  border-radius: 30px;
+  padding: 15px 15px 7px 15px;
+  margin-bottom: 25px; }
+
+.securitySmoke__heading p {
+  font-family: open sans;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #FFFAF7;
+  margin-bottom: 10px; }
+
+.securitySmoke__livingRoom {
+  display: flex;
+  align-items: center; }
+
+.securitySmoke__livingRoom--text {
+  padding: 0; }
+
+.securitySmoke__livingRoom--text p {
+  font-family: raleway;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #FFFAF7;
+  margin-bottom: 10px; }
+
+.securitySmoke__livingRoom--icons {
+  padding: 0;
+  display: flex;
+  justify-content: flex-end; }
+
+.smokeIcons {
+  height: 20px;
+  margin-bottom: 10px;
+  margin-left: 15px; }
+
+.securitySmoke__bedRoom {
+  display: flex;
+  align-items: center; }
+
+.securitySmoke__bedRoom--text {
+  padding: 0; }
+
+.securitySmoke__bedRoom--text p {
+  font-family: raleway;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #FFFAF7;
+  margin-bottom: 10px; }
+
+.securitySmoke__bedRoom--icons {
+  padding: 0;
+  display: flex;
+  justify-content: flex-end; }
+
+.securitySmoke__kitchen {
+  display: flex;
+  align-items: center; }
+
+.securitySmoke__kitchen--text {
+  padding: 0; }
+
+.securitySmoke__kitchen--text p {
+  font-family: raleway;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #FFFAF7;
+  margin-bottom: 10px; }
+
+.securitySmoke__kitchen--icons {
+  padding: 0;
+  display: flex;
+  justify-content: flex-end; }
+
+.securityCamera {
+  border: solid 4px #DC7272;
+  border-radius: 30px;
+  padding: 15px 15px 7px 15px;
+  margin-bottom: 25px; }
+
+.securityCamera__heading p {
+  font-family: open sans;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #FFFAF7;
+  margin-bottom: 10px; }
+
+.securityCamera__frontDoor {
+  display: flex;
+  align-items: center; }
+
+.securityCamera__frontDoor--text {
+  padding: 0; }
+
+.securityCamera__frontDoor--text p {
+  font-family: raleway;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #FFFAF7;
+  margin-bottom: 10px; }
+
+.securityCamera__frontDoor--icons {
+  padding: 0;
+  display: flex;
+  justify-content: flex-end; }
+
+.cameraIcons {
+  height: 20px;
+  margin-bottom: 10px;
+  margin-left: 15px; }
+
+.securityCamera__backDoor {
+  display: flex;
+  align-items: center; }
+
+.securityCamera__backDoor--text {
+  padding: 0; }
+
+.securityCamera__backDoor--text p {
+  font-family: raleway;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #FFFAF7;
+  margin-bottom: 10px; }
+
+.securityCamera__backDoor--icons {
+  padding: 0;
+  display: flex;
+  justify-content: flex-end; }
+
+.securityCamera__livingRoom {
+  display: flex;
+  align-items: center; }
+
+.securityCamera__livingRoom--text {
+  padding: 0; }
+
+.securityCamera__livingRoom--text p {
+  font-family: raleway;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #FFFAF7;
+  margin-bottom: 10px; }
+
+.securityCamera__livingRoom--icons {
+  padding: 0;
+  display: flex;
+  justify-content: flex-end; }
+
+.viewButton {
+  height: 20px;
+  width: 48px;
+  background-color: #BBA3BA;
+  border: none;
+  font-family: open sans;
+  letter-spacing: 1px;
+  color: #FFFAF7;
+  font-size: 14px; }
+
+.viewButton--dark {
+  height: 20px;
+  width: 48px;
+  background-color: #3D353C;
+  border: none;
+  font-family: open sans;
+  letter-spacing: 1px;
+  color: #525252;
+  font-size: 14px; }
+
 .entertainmentNav {
   padding-top: 15px;
-  padding-bottom: 15px; }
+  padding-bottom: 5px; }
 
 .entertainmentNav__arrow img {
   height: 32px; }
@@ -321,7 +499,7 @@ html, body {
 
 .electricityNav {
   padding-top: 15px;
-  padding-bottom: 15px; }
+  padding-bottom: 5px; }
 
 .electricityNav__arrow img {
   height: 32px; }
