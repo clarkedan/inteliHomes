@@ -1,1 +1,38 @@
-
+.cameraNav{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.cameraNav__arrow img{
+    height: 32px;
+}
+.cameraNav__logo{
+    display: flex;
+    justify-content: flex-end;
+}
+.cameraNav__logo img{
+    height: 32px;
+}
+.cameraHeading{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.cameraHeading img{
+    height: 32px;
+}
+.cameraHeading p{
+    font-size: 17px;
+	font-family: raleway;
+	font-weight: 600;
+	color: $white;
+	letter-spacing: 2px;
+    margin-left: 15px;;
+    margin-bottom: 0px;
+}
+.cameraImage{
+    margin-bottom: 25px;
+}
+.cameraImage img{
+    width: 100%;
+}
