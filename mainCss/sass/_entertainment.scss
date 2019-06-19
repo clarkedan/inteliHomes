@@ -30,3 +30,335 @@
     margin-left: 15px;;
     margin-bottom: 0px;
 }
+
+// entertain Wifi
+.entertainWifi{
+    border: solid 4px $teal;
+    border-radius: 30px;
+    padding: 15px 15px 7px 15px;
+    margin-bottom: 25px;
+}
+.entertainWifi__heading p{
+    font-family: open sans;
+	font-weight: 600;
+	font-size: 20px;
+	letter-spacing: 2px;
+    color: $white;
+    margin-bottom: 10px;
+}
+.entertainWifi__livingRoom{
+    display: flex;
+    align-items: center;
+}
+.entertainWifi__livingRoom--text{
+    padding: 0;
+}
+.entertainWifi__livingRoom--text p{
+    font-family: raleway;
+	font-weight: 400;
+	font-size: 20px;
+	letter-spacing: 2px;
+    color: $white;
+    margin-bottom: 10px;
+}
+.entertainWifi__livingRoom--icons{
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+.entertainIcons{
+    height: 20px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+.entertainWifi__bedRoom{
+    display: flex;
+    align-items: center;
+}
+.entertainWifi__bedRoom--text{
+    padding: 0;
+}
+.entertainWifi__bedRoom--text p{
+    font-family: raleway;
+	font-weight: 400;
+	font-size: 20px;
+	letter-spacing: 2px;
+    color: $white;
+    margin-bottom: 10px;
+}
+.entertainWifi__bedRoom--icons{
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+// entertain assist
+.entertainAssist{
+    border: solid 4px $teal;
+    border-radius: 30px;
+    padding: 15px 15px 18px 15px;
+    margin-bottom: 25px;
+}
+.entertainAssist__heading--purple{
+    color: $purple;
+    font-family: raleway;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+.entertainAssist__heading p{
+    font-family: open sans;
+	font-weight: 600;
+	font-size: 20px;
+	letter-spacing: 2px;
+    color: $white;
+    margin-bottom: 10px;
+}
+// living room on/off
+.entertainAssist__livingRoom{
+    display: flex;
+    align-items: center;
+}
+.entertainAssist__livingRoom--text{
+    padding: 0;
+}
+.entertainAssist__livingRoom--text p{
+    font-family: raleway;
+	font-weight: 400;
+	font-size: 20px;
+	letter-spacing: 2px;
+    color: $white;
+    margin-bottom: 5px;
+}
+.entertainAssist__livingRoom--icons{
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+.entertainAssist__livingRoomOnOff{
+    display: flex;
+    align-items: center;
+}
+.entertainAssist__livingRoomOnOff--text{
+    padding: 0;
+}
+.entertainAssist__livingRoomOnOff--text p{
+    font-family: raleway;
+	font-weight: 400;
+	font-size: 20px;
+	letter-spacing: 2px;
+    color: $white;
+    margin-bottom: 0px;
+}
+.musicText p{
+    margin-bottom: 15px;
+}
+.entertainAssist__livingRoomOnOff--icons{
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+// bedroom on/off
+.entertainAssist__bedRoom{
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+}
+.entertainAssist__bedRoom--text{
+    padding: 0;
+}
+.entertainAssist__bedRoom--text p{
+    font-family: raleway;
+	font-weight: 400;
+	font-size: 20px;
+	letter-spacing: 2px;
+    color: $white;
+    margin-bottom: 5px;
+}
+.entertainAssist__bedRoom--icons{
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+.entertainAssist__bedRoomOnOff{
+    display: flex;
+    align-items: center;
+}
+.entertainAssist__bedRoomOnOff--text{
+    padding: 0;
+}
+.entertainAssist__bedRoomOnOff--text p{
+    font-family: raleway;
+	font-weight: 400;
+	font-size: 20px;
+	letter-spacing: 2px;
+    color: $white;
+    margin-bottom: 0px;
+}
+.musicText p{
+    margin-bottom: 15px;
+}
+.entertainAssist__bedRoomOnOff--icons{
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+// bedroom on/off
+.entertainAssist__kitchen{
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+}
+.entertainAssist__kitchen--text{
+    padding: 0;
+}
+.entertainAssist__kitchen--text p{
+    font-family: raleway;
+	font-weight: 400;
+	font-size: 20px;
+	letter-spacing: 2px;
+    color: $white;
+    margin-bottom: 5px;
+}
+.entertainAssist__kitchen--icons{
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+.entertainAssist__kitchenOnOff{
+    display: flex;
+    align-items: center;
+}
+.entertainAssist__kitchenOnOff--text{
+    padding: 0;
+}
+.entertainAssist__kitchenOnOff--text p{
+    font-family: raleway;
+	font-weight: 400;
+	font-size: 20px;
+	letter-spacing: 2px;
+    color: $white;
+    margin-bottom: 0px;
+}
+.musicText p{
+    margin-bottom: 15px;
+}
+.entertainAssist__kitchenOnOff--icons{
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+// entertain Wifi
+.entertainTV{
+    border: solid 4px $teal;
+    border-radius: 30px;
+    padding: 15px 15px 7px 15px;
+    margin-bottom: 25px;
+}
+.entertainTV__smartTV{
+    display: flex;
+    align-items: center;
+}
+.entertainTV__smartTV--text{
+    padding: 0;
+}
+.entertainTV__smartTV--text p{
+    font-family: open sans;
+	font-weight: 600;
+	font-size: 20px;
+	letter-spacing: 2px;
+    color: $white;
+    margin-bottom: 10px;
+}
+.entertainTV__smartTV--icons{
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+.entertainTV__onOff{
+    display: flex;
+    align-items: center;
+}
+.entertainTV__onOff--text{
+    padding: 0;
+}
+.entertainTV__onOff--text p{
+    font-family: raleway;
+	font-weight: 400;
+	font-size: 20px;
+	letter-spacing: 2px;
+    color: $white;
+    margin-bottom: 0px;
+}
+.entertainTV__onOff--icons{
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+.entertainTV__controlsTop{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+.entertainTV__icons{
+    height: 40px;
+}
+.entertainTV__controlsBottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+
+
+
+
+/*SWITCH (W3Schools)*/
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 54px;
+    height: 24px;
+    margin-bottom: 0px;
+  }
+  .switch input {display:none;}
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; 
+    background-color: #3D353C;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 4px;
+    bottom: 2px;
+    background-color: $teal;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  input:checked + .slider {
+    background-color: #3D353C;
+  }
+  input:focus + .slider {
+    box-shadow: 0 0 1px #3D353C;
+  }
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+    background-color: $red;}
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  /*SWITCH ENDS*/
