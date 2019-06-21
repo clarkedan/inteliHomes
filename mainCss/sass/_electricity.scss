@@ -27,6 +27,54 @@
 	font-weight: 600;
 	color: $white;
 	letter-spacing: 2px;
-    margin-left: 15px;;
+    margin-left: 15px;
+    margin-bottom: 0px;
+}
+
+// electricity power usage
+.electricityPower{
+    border: solid 4px $yellow;
+    border-radius: 30px;
+    padding: 15px 15px 7px 15px;
+    margin-bottom: 25px;
+}
+.electricityPower__heading{
+    display: flex;
+    align-items: center;
+}
+.electricityPower__heading--text{
+    padding: 0;
+}
+.electricityPower__heading--text p{
+    font-family: open sans;
+	font-weight: 600;
+	font-size: 20px;
+	letter-spacing: 2px;
+    color: $white;
+    margin-bottom: 10px;
+}
+.electricityPower__heading--icons{
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+.electricityIcons{
+    height: 20px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+.electricityPower__bathroom{
+    display: flex;
+    align-items: center;
+}
+.electricityPower__bathroom--text{
+    padding: 0;
+}
+.electricityPower__bathroom--text p{
+    font-family: raleway;
+	font-weight: 400;
+	font-size: 20px;
+	letter-spacing: 2px;
+    color: $white;
     margin-bottom: 0px;
 }
