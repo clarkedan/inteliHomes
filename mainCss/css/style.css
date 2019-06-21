@@ -889,7 +889,7 @@ input:checked + .slider:before {
 .electricityPower {
   border: solid 4px #FCC6AC;
   border-radius: 30px;
-  padding: 15px 15px 7px 15px;
+  padding: 15px 15px 15px 15px;
   margin-bottom: 25px; }
 
 .electricityPower__heading {
@@ -905,7 +905,7 @@ input:checked + .slider:before {
   font-size: 20px;
   letter-spacing: 2px;
   color: #FFFAF7;
-  margin-bottom: 10px; }
+  margin-bottom: 0px; }
 
 .electricityPower__heading--icons {
   padding: 0;
@@ -930,6 +930,315 @@ input:checked + .slider:before {
   font-size: 20px;
   letter-spacing: 2px;
   color: #FFFAF7;
+  margin-bottom: 5px;
+  margin-top: 10px; }
+
+.electricityPower__bathroom--bar {
+  height: 16px;
+  background-color: #DC7272;
+  width: 75%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-bottom: 5px; }
+
+.electricityPower__bathroom--smallText {
+  font-family: open sans;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #FFFAF7;
   margin-bottom: 0px; }
+
+.electricityPower__kitchen {
+  display: flex;
+  align-items: center; }
+
+.electricityPower__kitchen--text {
+  padding: 0; }
+
+.electricityPower__kitchen--text p {
+  font-family: raleway;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #FFFAF7;
+  margin-bottom: 5px;
+  margin-top: 10px; }
+
+.electricityPower__kitchen--bar {
+  height: 16px;
+  background-color: #FCC6AC;
+  width: 55%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-bottom: 5px; }
+
+.electricityPower__kitchen--smallText {
+  font-family: open sans;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #FFFAF7;
+  margin-bottom: 0px; }
+
+.electricityPower__livingRoom {
+  display: flex;
+  align-items: center; }
+
+.electricityPower__livingRoom--text {
+  padding: 0; }
+
+.electricityPower__livingRoom--text p {
+  font-family: raleway;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #FFFAF7;
+  margin-bottom: 5px;
+  margin-top: 10px; }
+
+.electricityPower__livingRoom--bar {
+  height: 16px;
+  background-color: #8799B8;
+  width: 30%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-bottom: 5px; }
+
+.electricityPower__livingRoom--smallText {
+  font-family: open sans;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #FFFAF7;
+  margin-bottom: 0px; }
+
+.electricityPower__bedroom {
+  display: flex;
+  align-items: center; }
+
+.electricityPower__bedroom--text {
+  padding: 0; }
+
+.electricityPower__bedroom--text p {
+  font-family: raleway;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #FFFAF7;
+  margin-bottom: 5px;
+  margin-top: 10px; }
+
+.electricityPower__bedroom--bar {
+  height: 16px;
+  background-color: #83CFC7;
+  width: 15%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-bottom: 5px; }
+
+.electricityPower__bedroom--smallText {
+  font-family: open sans;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #FFFAF7;
+  margin-bottom: 0px; }
+
+.electricityClimate {
+  border: solid 4px #FCC6AC;
+  border-radius: 30px;
+  padding: 15px 15px 15px 15px;
+  margin-bottom: 25px; }
+
+.electricityClimate__heading p {
+  font-family: open sans;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #FFFAF7;
+  margin-bottom: 5px; }
+
+.electricityClimate__livingRoom {
+  display: flex;
+  align-items: center;
+  padding-top: 10px; }
+
+.electricityClimate__livingRoom--text {
+  padding: 0; }
+
+.electricityClimate__livingRoom--text p {
+  font-family: raleway;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #FFFAF7;
+  margin-bottom: 5px; }
+
+.electricityClimate__livingRoom--icons {
+  padding: 0;
+  display: flex;
+  justify-content: flex-end; }
+
+.electricityIcons {
+  height: 20px;
+  margin-bottom: 10px;
+  margin-left: 15px; }
+
+.electricityClimate__livingRoomMode {
+  display: flex;
+  align-items: center; }
+
+.electricityClimate__livingRoomMode--text {
+  padding: 0; }
+
+.electricityClimate__livingRoomMode--text p {
+  font-family: open sans;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #FFFAF7;
+  margin-bottom: 5px; }
+
+.electricityClimate__livingRoomMode--icons {
+  padding: 0;
+  display: flex;
+  justify-content: flex-end; }
+
+.btn {
+  padding: 3px 12px;
+  background-color: #3D353C;
+  border: solid 2px #555;
+  border-radius: 10px;
+  font-family: open sans;
+  font-weight: bold;
+  font-size: 9px;
+  color: #FFFAF7;
+  margin-left: 5px; }
+
+.btnCool {
+  border: solid 2px #8799B8; }
+
+.btnAuto {
+  border: solid 2px #BBA3BA; }
+
+.electricityClimate__bedroom {
+  display: flex;
+  align-items: center;
+  padding-top: 10px; }
+
+.electricityClimate__bedroom--text {
+  padding: 0; }
+
+.electricityClimate__bedroom--text p {
+  font-family: raleway;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #FFFAF7;
+  margin-bottom: 5px; }
+
+.electricityClimate__bedroom--icons {
+  padding: 0;
+  display: flex;
+  justify-content: flex-end; }
+
+.electricityClimate__bedroomMode {
+  display: flex;
+  align-items: center; }
+
+.electricityClimate__bedroomMode--text {
+  padding: 0; }
+
+.electricityClimate__bedroomMode--text p {
+  font-family: open sans;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #FFFAF7;
+  margin-bottom: 5px; }
+
+.electricityClimate__bedroomMode--icons {
+  padding: 0;
+  display: flex;
+  justify-content: flex-end; }
+
+.btnHeat {
+  border: solid 2px #FCC6AC; }
+
+.btnOff {
+  border: solid 2px #DC7272; }
+
+.electricityOven {
+  border: solid 4px #FCC6AC;
+  border-radius: 30px;
+  padding: 15px 15px 15px 15px;
+  margin-bottom: 25px; }
+
+.electricityOven__smartOven {
+  display: flex;
+  align-items: center; }
+
+.electricityOven__smartOven--text {
+  padding: 0; }
+
+.electricityOven__smartOven--text p {
+  font-family: open sans;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #FFFAF7;
+  margin-bottom: 10px; }
+
+.electricityOven__smartOven--icons {
+  padding: 0;
+  display: flex;
+  justify-content: flex-end; }
+
+.electricityOven__onOff {
+  display: flex;
+  align-items: center; }
+
+.electricityOven__onOff--text {
+  padding: 0; }
+
+.electricityOven__onOff--text p {
+  font-family: raleway;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #FFFAF7;
+  margin-bottom: 5px; }
+
+.electricityOven__onOff--icons {
+  padding: 0;
+  display: flex;
+  justify-content: flex-end; }
+
+.electricityOven__ovenMode {
+  display: flex;
+  align-items: center; }
+
+.electricityOven__ovenMode--text {
+  padding: 0; }
+
+.electricityOven__ovenMode--text p {
+  font-family: open sans;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #FFFAF7;
+  margin-bottom: 5px; }
+
+.electricityOven__ovenMode--icons {
+  padding: 0;
+  display: flex;
+  justify-content: flex-end; }
+
+.btnOn {
+  border: solid 2px #83CFC7; }
+
+.btnGrill {
+  border: solid 2px #DC7272; }
 
 /*# sourceMappingURL=style.css.map */

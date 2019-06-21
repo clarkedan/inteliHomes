@@ -18,18 +18,18 @@
 
 <body>
     <div class="container-fluid masterContain">
-    <!-- navBar -->    
+        <!-- navBar -->
         <div class="row electricityNav">
             <div class="col-6 electricityNav__arrow">
                 <a href="dashboard.html">
                     <img class="" src="images/icons/backArrow.svg">
                 </a>
-            </div>    
+            </div>
             <div class="col-6 electricityNav__logo">
                 <img src="images/icons/logo.svg">
             </div>
         </div>
-         <!-- heading -->
+        <!-- heading -->
         <div class="row">
             <div class="col-12 electricityHeading">
                 <img src="images/icons/electricity.svg">
@@ -52,16 +52,168 @@
                     <div class="electricityPower__bathroom">
                         <div class="col-12 electricityPower__bathroom--text">
                             <p>BATHROOM</p>
+                            <div class="electricityPower__bathroom--bar"></div>
                         </div>
                     </div>
-                    
+                    <p class="electricityPower__bathroom--smallText">used - 12.03 Kwh</p>
+                    <p class="electricityPower__bathroom--smallText">cost - $9.74</p>
+                    <!-- kitchen -->
+                    <div class="electricityPower__kitchen">
+                        <div class="col-12 electricityPower__kitchen--text">
+                            <p>KITCHEN</p>
+                            <div class="electricityPower__kitchen--bar"></div>
+                        </div>
+                    </div>
+                    <p class="electricityPower__kitchen--smallText">used - 9.98 Kwh</p>
+                    <p class="electricityPower__kitchen--smallText">cost - $6.78</p>
+                    <!-- living room -->
+                    <div class="electricityPower__livingRoom">
+                        <div class="col-12 electricityPower__livingRoom--text">
+                            <p>LIVING ROOM</p>
+                            <div class="electricityPower__livingRoom--bar"></div>
+                        </div>
+                    </div>
+                    <p class="electricityPower__livingRoom--smallText">used - 4.48 Kwh</p>
+                    <p class="electricityPower__livingRoom--smallText">cost - $3.68</p>
+                    <!-- bedroom -->
+                    <div class="electricityPower__bedroom">
+                        <div class="col-12 electricityPower__bedroom--text">
+                            <p>BEDROOM</p>
+                            <div class="electricityPower__bedroom--bar"></div>
+                        </div>
+                    </div>
+                    <p class="electricityPower__bedroom--smallText">used - 1.74 Kwh</p>
+                    <p class="electricityPower__bedroom--smallText">cost - $1.23</p>
                 </div>
             </div>
         </div>
+        <!-- climate control -->
+        <div class="row">
+            <div class="col-12">
+                <div class="electricityClimate">
+                    <div class="electricityClimate__heading">
+                        <p>CLIMATE CONTROL</p>
+                    </div>
+                    <!-- living room -->
+                    <div class="electricityClimate__livingRoom">
+                        <div class="col-8 electricityClimate__livingRoom--text">
+                            <p>LIVING ROOM</p>
+                        </div>
+                        <div class="col-4 electricityClimate__livingRoom--icons">
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                            <img class="electricityIcons" src="images/icons/wifi.svg">
+                        </div>
+                    </div>
+                    <div class="electricityClimate__livingRoomMode">
+                        <div class="col-6 electricityClimate__livingRoomMode--text">
+                            <p>mode -</p>
+                        </div>
+                        <div class="col-6 electricityClimate__livingRoomMode--icons">
+                            <button class="btn">AUTO</button>
+                            <button class="btn">HEAT</button>
+                            <button class="btn btnCool">COOL</button>
+                        </div>
+                    </div>
+                    <div class="electricityClimate__livingRoomMode">
+                        <div class="col-6 electricityClimate__livingRoomMode--text">
+                            <p>fan -</p>
+                        </div>
+                        <div class="col-6 electricityClimate__livingRoomMode--icons">
+                            <button class="btn btnAuto">AUTO</button>
+                            <button class="btn">ON</button>
+                            <button class="btn">OFF</button>
+                        </div>
+                    </div>
+                    <!-- bedRoom -->
+                    <div class="electricityClimate__bedroom">
+                        <div class="col-8 electricityClimate__bedroom--text">
+                            <p>BEDROOM</p>
+                        </div>
+                        <div class="col-4 electricityClimate__bedroom--icons">
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                            <img class="electricityIcons" src="images/icons/wifi.svg">
+                        </div>
+                    </div>
+                    <div class="electricityClimate__bedroomMode">
+                        <div class="col-6 electricityClimate__bedroomMode--text">
+                            <p>mode -</p>
+                        </div>
+                        <div class="col-6 electricityClimate__bedroomMode--icons">
+                            <button class="btn">AUTO</button>
+                            <button class="btn btnHeat">HEAT</button>
+                            <button class="btn">COOL</button>
+                        </div>
+                    </div>
+                    <div class="electricityClimate__bedroomMode">
+                        <div class="col-6 electricityClimate__bedroomMode--text">
+                            <p>fan -</p>
+                        </div>
+                        <div class="col-6 electricityClimate__bedroomMode--icons">
+                            <button class="btn">AUTO</button>
+                            <button class="btn">ON</button>
+                            <button class="btn btnOff">OFF</button>
+                        </div>
+                    </div>
 
+                </div>
+            </div>
+        </div>
+        <!-- smart oven -->
+        <div class="row">
+            <div class="col-12">
+                <div class="electricityOven">
+                    <div class="electricityOven__smartOven">
+                        <div class="col-8 electricityOven__smartOven--text">
+                            <p>SMART OVEN</p>
+                        </div>
+                        <div class="col-4 electricityOven__smartOven--icons">
+                            <img class="entertainIcons" src="images/icons/wifi.svg">
+                        </div>
+                    </div>
+                    <div class="electricityOven__onOff">
+                        <div class="col-8 electricityOven__onOff--text">
+                            <p>on/off -</p>
+                        </div>
+                        <div class="col-4 electricityOven__onOff--icons">
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="electricityOven__ovenMode">
+                        <div class="col-6 electricityOven__ovenMode--text">
+                            <p>mode -</p>
+                        </div>
+                        <div class="col-6 electricityOven__ovenMode--icons">
+                            <button class="btn">AUTO</button>
+                            <button class="btn btnGrill">GRILL</button>
+                            <button class="btn">WARM</button>
+                        </div>
+                    </div>
+                    <div class="electricityOven__ovenMode">
+                        <div class="col-6 electricityOven__ovenMode--text">
+                            <p>fan -</p>
+                        </div>
+                        <div class="col-6 electricityOven__ovenMode--icons">
+                            <button class="btn btnOn">ON</button>
+                            <button class="btn">OFF</button>
+                        </div>
+                    </div>
+                    
+
+                </div>
+            </div>
+        </div>
     </div>
-    
-    
+
+
 
 
 
