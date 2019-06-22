@@ -10,15 +10,22 @@ html, body {
   width: 100%;
   background-color: #1F171D; }
 
+.signInContain {
+  height: 100%;
+  width: 100%;
+  background-color: #ccc;
+  position: absolute;
+  padding: 0; }
+
 .signIn {
   width: 320px;
   height: 640px;
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
   margin-left: -160px;
   margin-top: -320px;
-  background-color: #ccc; }
+  background-color: #666; }
 
 .dashHead {
   width: 100%; }
@@ -46,7 +53,7 @@ html, body {
   padding-left: 10px;
   position: absolute;
   left: 13%;
-  top: 9%; }
+  top: 3.4%; }
 
 .dashBody__welcome--space {
   letter-spacing: 3px; }
@@ -1048,7 +1055,7 @@ input:checked + .slider:before {
 .electricityClimate {
   border: solid 4px #FCC6AC;
   border-radius: 30px;
-  padding: 15px 15px 15px 15px;
+  padding: 15px 15px 12px 15px;
   margin-bottom: 25px; }
 
 .electricityClimate__heading p {
@@ -1062,7 +1069,8 @@ input:checked + .slider:before {
 .electricityClimate__livingRoom {
   display: flex;
   align-items: center;
-  padding-top: 10px; }
+  padding-top: 10px;
+  padding-bottom: 5px; }
 
 .electricityClimate__livingRoom--text {
   padding: 0; }
@@ -1087,7 +1095,8 @@ input:checked + .slider:before {
 
 .electricityClimate__livingRoomMode {
   display: flex;
-  align-items: center; }
+  align-items: center;
+  padding-bottom: 5px; }
 
 .electricityClimate__livingRoomMode--text {
   padding: 0; }
@@ -1125,7 +1134,8 @@ input:checked + .slider:before {
 .electricityClimate__bedroom {
   display: flex;
   align-items: center;
-  padding-top: 10px; }
+  padding-top: 15px;
+  padding-bottom: 5px; }
 
 .electricityClimate__bedroom--text {
   padding: 0; }
@@ -1136,7 +1146,7 @@ input:checked + .slider:before {
   font-size: 20px;
   letter-spacing: 2px;
   color: #FFFAF7;
-  margin-bottom: 5px; }
+  margin-bottom: 10px; }
 
 .electricityClimate__bedroom--icons {
   padding: 0;
@@ -1145,7 +1155,8 @@ input:checked + .slider:before {
 
 .electricityClimate__bedroomMode {
   display: flex;
-  align-items: center; }
+  align-items: center;
+  padding-bottom: 5px; }
 
 .electricityClimate__bedroomMode--text {
   padding: 0; }
@@ -1197,7 +1208,8 @@ input:checked + .slider:before {
 
 .electricityOven__onOff {
   display: flex;
-  align-items: center; }
+  align-items: center;
+  padding-bottom: 5px; }
 
 .electricityOven__onOff--text {
   padding: 0; }
@@ -1217,7 +1229,8 @@ input:checked + .slider:before {
 
 .electricityOven__ovenMode {
   display: flex;
-  align-items: center; }
+  align-items: center;
+  padding-bottom: 5px; }
 
 .electricityOven__ovenMode--text {
   padding: 0; }

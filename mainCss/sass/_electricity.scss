@@ -196,7 +196,7 @@
 .electricityClimate{
     border: solid 4px $yellow;
     border-radius: 30px;
-    padding: 15px 15px 15px 15px;
+    padding: 15px 15px 12px 15px;
     margin-bottom: 25px;
 }
 .electricityClimate__heading p{
@@ -211,6 +211,7 @@
     display: flex;
     align-items: center;
     padding-top: 10px;
+    padding-bottom: 5px;
 }
 .electricityClimate__livingRoom--text{
     padding: 0;
@@ -236,6 +237,7 @@
 .electricityClimate__livingRoomMode{
     display: flex;
     align-items: center;
+    padding-bottom: 5px;
 }
 .electricityClimate__livingRoomMode--text{
     padding: 0;
@@ -273,7 +275,8 @@
 .electricityClimate__bedroom{
     display: flex;
     align-items: center;
-    padding-top: 10px;
+    padding-top: 15px;
+    padding-bottom: 5px;
 }
 .electricityClimate__bedroom--text{
     padding: 0;
@@ -284,7 +287,7 @@
 	font-size: 20px;
 	letter-spacing: 2px;
     color: $white;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 .electricityClimate__bedroom--icons{
     padding: 0;
@@ -294,6 +297,7 @@
 .electricityClimate__bedroomMode{
     display: flex;
     align-items: center;
+    padding-bottom: 5px;
 }
 .electricityClimate__bedroomMode--text{
     padding: 0;
@@ -348,6 +352,7 @@
 .electricityOven__onOff{
     display: flex;
     align-items: center;
+    padding-bottom: 5px;
 }
 .electricityOven__onOff--text{
     padding: 0;
@@ -369,6 +374,7 @@
 .electricityOven__ovenMode{
     display: flex;
     align-items: center;
+    padding-bottom: 5px;
 }
 .electricityOven__ovenMode--text{
     padding: 0;

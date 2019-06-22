@@ -3,9 +3,7 @@
 }
 .dashHead__col{
     padding-top: 15px;
-    // padding-left: 0px;
     padding-bottom: 15px;
-    // padding-right: 0px;
 }
 .dashHead__logo{
     height: 40px;
@@ -13,13 +11,11 @@
 .dashbody__welcome{
     display: flex;
     align-items: center;
-
 }
 .dashBody__welcome--speech{
     position: relative;
     margin-bottom: 10px;
     margin-top: 10px;
-    // height: 70px;
 }
 .dashBody__welcome--text{
 	font-family: raleway;
@@ -28,7 +24,7 @@
 	padding-left: 10px;
 	position: absolute;
 	left: 13%;
-    top: 9%;
+    top: 3.4%;
 }
 .dashBody__welcome--space{
     letter-spacing: 3px;
@@ -68,7 +64,6 @@
 }
 .dashBody__secureTick img{
     height: 31px;
-
 }
 .dashBody__home{
     display: flex;
