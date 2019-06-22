@@ -10,22 +10,102 @@ html, body {
   width: 100%;
   background-color: #1F171D; }
 
+.resize {
+  height: 100%;
+  width: 100%;
+  position: relative; }
+
+.resize__display {
+  width: 350px;
+  height: 155px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -175px;
+  margin-top: -77.5px; }
+
+.resize__display img {
+  width: 100%;
+  margin-bottom: 20px; }
+
+.resize__display h5 {
+  color: white;
+  font-family: open sans;
+  letter-spacing: 1px;
+  text-align: center; }
+
+.masterContain {
+  display: none; }
+
 .signInContain {
   height: 100%;
   width: 100%;
-  background-color: #ccc;
-  position: absolute;
-  padding: 0; }
-
-.signIn {
-  width: 320px;
-  height: 640px;
   position: relative;
+  display: none; }
+
+@media only screen and (max-width: 450px) {
+  .resize {
+    display: none; }
+
+  .masterContain {
+    display: block; }
+
+  .signInContain {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: block; } }
+.signIn {
+  width: 250px;
+  height: 290px;
+  position: absolute;
   top: 50%;
   left: 50%;
-  margin-left: -160px;
-  margin-top: -320px;
-  background-color: #666; }
+  margin-left: -125px;
+  margin-top: -170px; }
+
+.signIn__brain {
+  display: flex;
+  justify-content: center; }
+
+.signIn__brain img {
+  width: 60%;
+  height: 100%; }
+
+.signIn__form--username {
+  padding: 15px 0px; }
+
+.signIn__form--username input {
+  width: 100%;
+  height: 34px;
+  font-family: raleway;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-align: center; }
+
+.signIn__form--password {
+  padding: 0px 0px 15px 0px; }
+
+.signIn__form--password input {
+  width: 100%;
+  height: 34px;
+  font-family: raleway;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-align: center; }
+
+.signIn__form--signIn input {
+  width: 100%;
+  background-color: #BBA3BA;
+  height: 34px;
+  font-family: open sans;
+  font-weight: 800;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-align: center;
+  border: 0px;
+  color: white;
+  cursor: pointer; }
 
 .dashHead {
   width: 100%; }
@@ -79,7 +159,7 @@ html, body {
 
 .dashBody__secureText p {
   font-family: open sans;
-  font-size: 2vh;
+  font-size: 16px;
   font-weight: 600;
   color: #FFFAF7;
   letter-spacing: 2px;
@@ -102,7 +182,7 @@ html, body {
   margin-top: 10px; }
 
 .dashBody__home p {
-  font-size: 2.4vh;
+  font-size: 20px;
   font-family: open sans;
   font-weight: 600;
   color: #FFFAF7;
@@ -127,7 +207,7 @@ html, body {
   margin-left: 15px; }
 
 .dashBody__security p {
-  font-size: 2.4vh;
+  font-size: 20px;
   font-family: raleway;
   font-weight: 600;
   color: #FFFAF7;
@@ -149,7 +229,7 @@ html, body {
   margin-left: 15px; }
 
 .dashBody__entertainment p {
-  font-size: 2.4vh;
+  font-size: 20px;
   font-family: raleway;
   font-weight: 600;
   color: #FFFAF7;
@@ -172,7 +252,7 @@ html, body {
   margin-left: 15px; }
 
 .dashBody__electricity p {
-  font-size: 2.4vh;
+  font-size: 20px;
   font-family: raleway;
   font-weight: 600;
   color: #FFFAF7;
@@ -1183,7 +1263,7 @@ input:checked + .slider:before {
 .electricityOven {
   border: solid 4px #FCC6AC;
   border-radius: 30px;
-  padding: 15px 15px 15px 15px;
+  padding: 15px 15px 10px 15px;
   margin-bottom: 25px; }
 
 .electricityOven__smartOven {

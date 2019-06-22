@@ -10,14 +10,57 @@ html,body{
 	width: 100%;
 	background-color: $darkBurg;
 }
-// .masterContain{
-// 	background-color: #333;
-// }
+.resize{
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+.resize__display{
+    width: 350px;
+    height: 155px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -175px;
+	margin-top: -77.5px;
+}
+.resize__display img{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.resize__display h5{
+	color: white;
+	font-family: open sans;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+.masterContain{
+	display: none;
+}
 .signInContain{
 	height: 100%;
 	width: 100%;
-	background-color: #ccc;
-	position: absolute;
-	padding: 0;
+	position: relative;
+	display: none;
 }
+
+@media only screen and (max-width : 450px){
+.resize{
+	display: none;
+}
+.masterContain{
+	// background-color: #333;
+	display: block;
+}
+.signInContain{
+	height: 100%;
+	width: 100%;
+	position: relative;
+	display: block;
+}
+}
+
+
+
 
