@@ -83,6 +83,9 @@ html, body {
   letter-spacing: 1px;
   text-align: center; }
 
+.signIn__form--username input::placeholder {
+  color: #1F171D; }
+
 .signIn__form--password {
   padding: 0px 0px 15px 0px; }
 
@@ -94,6 +97,9 @@ html, body {
   letter-spacing: 1px;
   text-align: center; }
 
+.signIn__form--password input::placeholder {
+  color: #1F171D; }
+
 .signIn__form--signIn input {
   width: 100%;
   background-color: #BBA3BA;
@@ -104,8 +110,10 @@ html, body {
   letter-spacing: 1px;
   text-align: center;
   border: 0px;
-  color: white;
   cursor: pointer; }
+
+.signIn__form--signIn input::placeholder {
+  color: #FFFAF7; }
 
 .dashHead {
   width: 100%; }
